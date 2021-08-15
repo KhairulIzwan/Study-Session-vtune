@@ -52,8 +52,26 @@ vtune
 
 | Section     | Description         | Notes            |
 | ----------- | ------------------- | -----------------|
-| A           | Expand each metric for detailed information about contributing factors.      | Local Host               |
-| B           | A flagged metric indicates a value outside acceptable/normal operating range. Use tool tips to understand how to improve a flagged metric.     | Launch Application   |
-| C           | See guidance on other analyses you should consider running next. The Analysis Tree highlights these recommendations.       | Performance Snapshot     |
+| A           | Expand each metric for detailed information about contributing factors.      |                |
+| B           | A flagged metric indicates a value outside acceptable/normal operating range. Use tool tips to understand how to improve a flagged metric.     |    |
+| C           | See guidance on other analyses you should consider running next. The Analysis Tree highlights these recommendations.       |      |
 
 *Cannot start data collection because the scope of ptrace system call is limited. To enable profiling, please set /proc/sys/kernel/yama/ptrace_scope to 0. To make this change permanent, set kernel.yama.ptrace_scope to 0 in /etc/sysctl.d/10-ptrace.conf and reboot the machine.*
+
+## Rules of Analysis (Step)
+1. Performance Snapshot
+```
+it presents a general overview of issues affecting the performance of your application on the target system
+```
+2. Hotspots
+```
+to understand an application flow and identify sections of code that get a lot of execution time (hotspots)
+```
+	1. User-mode Sampling
+	```
+	which incurs higher overhead but does not require sampling drivers for collection
+	```
+	2. Hardware event-based Sampling
+	```
+	which provides minimum collection overhead but needs sampling drivers or Perf* to be 	installed
+	```
