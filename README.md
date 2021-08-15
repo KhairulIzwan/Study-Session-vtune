@@ -12,7 +12,7 @@
 
 **Understand the Workflow**
 
-![Tux, the Linux mascot](/assets/images/tux.png)
+![VTune Workflow](https://github.com/KhairulIzwan/Study-Session-vtune/blob/main/img/workflowVTune.png)
 
 ## Get Started with Intel® VTune™ Profiler for Linux* OS
 
