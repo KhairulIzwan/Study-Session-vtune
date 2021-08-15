@@ -67,11 +67,10 @@ it presents a general overview of issues affecting the performance of your appli
 ```
 to understand an application flow and identify sections of code that get a lot of execution time (hotspots)
 ```
-	1. User-mode Sampling
-	```
-	which incurs higher overhead but does not require sampling drivers for collection
-	```
-	2. Hardware event-based Sampling
-	```
-	which provides minimum collection overhead but needs sampling drivers or Perf* to be 	installed
-	```
+
+| Sampling             | Description         |
+| -------------------- | ------------------- |
+| User-mode            | which incurs higher overhead but does not require sampling drivers for collection |
+| Hardware event-based | which provides minimum collection overhead but needs sampling drivers or Perf* to be installed |
+
+**In the user-mode sampling, the collector does not gather system-wide performance data but focuses on your application only. To analyze system performance, use the hardware event-based sampling mode**
