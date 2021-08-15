@@ -16,7 +16,7 @@
 
 ## Get Started with Intel® VTune™ Profiler for Linux* OS
 
-*Environment Setup*
+*Environment Setup* **ONLY ONCE!**
 ```
 echo "source /opt/intel/oneapi/vtune/2021.6.0/vtune-vars.sh" >> ~/.bashrc
 source ~/.bashrc
@@ -41,6 +41,8 @@ vtune
 | Where       | Target System       | Local Host               |
 | What        | Analysis Target     | Launch Application       |
 | How         | Analysis Type       | Performance Snapshot     |
+
+*We will start **Performance Snaphot** as it presents a general overview of issues affecting the performance of your application on the target system*
 
 **Step 3: View and Analyze Performance Data**
 
