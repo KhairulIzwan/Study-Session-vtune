@@ -1,5 +1,19 @@
 # Study-Session-vtune
 
+## Get Started with Intel® VTune™ Profiler
+
+**Improve application and system performance**
+```
+1. Analyze algorithm choices.
+2. Find serial and parallel code bottlenecks.
+3. Understand where and how your application can benefit from available hardware resources.
+4. Speed up the execution of your application.
+```
+
+**Understand the Workflow**
+
+![Tux, the Linux mascot](/assets/images/tux.png)
+
 ## Get Started with Intel® VTune™ Profiler for Linux* OS
 
 *Environment Setup*
