@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-1. (Intel® VTuneTMProfiler 2021 or later)[https://software.intel.com/content/www/us/en/develop/articles/oneapi-standalone-components.html#vtune]
+1. [Intel® VTuneTMProfiler 2021 or later](https://software.intel.com/content/www/us/en/develop/articles/oneapi-standalone-components.html#vtune)
 
 2. (Intel® C++ Compiler Classic)[https://software.intel.com/content/www/us/en/develop/articles/oneapi-standalone-components.html#compilerclassic]
 
