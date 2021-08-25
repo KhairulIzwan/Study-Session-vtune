@@ -8,14 +8,6 @@
 
 1. Download and install [Intel® oneAPI Base Toolkit](https://software.intel.com/content/www/us/en/develop/tools/oneapi/base-toolkit/download.html?operatingsystem=linux&distributions=webdownload&options=offline)
 
-**Notes:** Focused on [Intel® VTuneTMProfiler 2021 or later](https://software.intel.com/content/www/us/en/develop/articles/oneapi-standalone-components.html#vtune) and [Intel® C++ Compiler Classic](https://software.intel.com/content/www/us/en/develop/articles/oneapi-standalone-components.html#compilerclassic) only!
-
-<!--1. [Intel® VTuneTMProfiler 2021 or later](https://software.intel.com/content/www/us/en/develop/articles/oneapi-standalone-components.html#vtune)-->
-
-2. Download and install [Intel® C++ Compiler Classic](https://software.intel.com/content/www/us/en/develop/articles/oneapi-standalone-components.html#compilerclassic)
-
-### Installation Details
-
 ```
 wget https://registrationcenter-download.intel.com/akdlm/irc_nas/17977/l_BaseKit_p_2021.3.0.3219_offline.sh
 
@@ -26,7 +18,16 @@ echo "INSTALLDIR_ONEAPI=/opt/intel/oneapi/" >> ~/.bashrc
 echo "source $INSTALLDIR_ONEAPI/setvars.sh" >> ~/.bashrc
 
 source ~/.bashrc
+```
 
+
+**Notes:** Focused on [Intel® VTuneTMProfiler 2021 or later](https://software.intel.com/content/www/us/en/develop/articles/oneapi-standalone-components.html#vtune) and [Intel® C++ Compiler Classic](https://software.intel.com/content/www/us/en/develop/articles/oneapi-standalone-components.html#compilerclassic) only!
+
+<!--1. [Intel® VTuneTMProfiler 2021 or later](https://software.intel.com/content/www/us/en/develop/articles/oneapi-standalone-components.html#vtune)-->
+
+2. Download and install [Intel® C++ Compiler Classic](https://software.intel.com/content/www/us/en/develop/articles/oneapi-standalone-components.html#compilerclassic)
+
+```
 wget https://registrationcenter-download.intel.com/akdlm/irc_nas/17928/l_dpcpp-cpp-compiler_p_2021.3.0.3168.sh
 
 sudo bash l_dpcpp-cpp-compiler_p_2021.3.0.3168.sh
