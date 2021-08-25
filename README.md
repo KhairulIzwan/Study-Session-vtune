@@ -1,15 +1,13 @@
-# Study-Session-VTune
+# Get Started with Intel® VTune™ Profiler
 
-## Get Started with Intel® VTune™ Profiler
-
-### Why using VTune?
+## Why using VTune?
 1. Improve application and system performance through these operations:
 	1. Analyze algorithm choices.
 	2. Find serial and parallel code bottlenecks.
 	3. Understand where and how your application can benefit from available hardware resources.
 	4. Speed up the execution of your application.
 	
-### [Installation](https://github.com/KhairulIzwan/Study-Session-vtune/blob/main/Prerequisites.md)
+## [Installation](https://github.com/KhairulIzwan/Study-Session-vtune/blob/main/Prerequisites.md)
 
 <!--**Understand the Workflow**-->
 
