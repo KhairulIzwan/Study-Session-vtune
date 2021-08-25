@@ -67,3 +67,6 @@ sudo bash l_dpcpp-cpp-compiler_p_2021.3.0.3168.sh
 - Proper way to install [Intel® VTuneTMProfiler](https://software.intel.com/content/www/us/en/develop/articles/oneapi-standalone-components.html#vtune) with less hanky panky is by installing [Intel® oneAPI Base Toolkit](https://software.intel.com/content/www/us/en/develop/tools/oneapi/base-toolkit/download.html?operatingsystem=linux&distributions=webdownload&options=offline)
 - Focused on [Intel® VTuneTMProfiler 2021 or later](https://software.intel.com/content/www/us/en/develop/articles/oneapi-standalone-components.html#vtune) and [Intel® C++ Compiler Classic](https://software.intel.com/content/www/us/en/develop/articles/oneapi-standalone-components.html#compilerclassic) only!
 
+**UPDATE**
+- Before installing the [Single Component Downloads and Runtime Versions](https://software.intel.com/content/www/us/en/develop/articles/oneapi-standalone-components.html#vtune) please install [Intel® software for general purpose GPU capabilities](https://dgpu-docs.intel.com/index.html)
+

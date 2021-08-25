@@ -10,12 +10,5 @@
 1. Highlighting the main problem areas in your application and providing metrics to estimate their severity.
 2. Focus on the most acute problems, solving which can yield the highest performance gain.
 
-<!--### How to run PS?-->
-<!--1. Start (Intel® VTuneTMProfiler)[https://software.intel.com/content/www/us/en/develop/articles/oneapi-standalone-components.html#vtune] -- GUI-->
-
-<!--```-->
-<!--vtune-gui-->
-<!--```-->
-
-2. Interpret Result Data Performance Snapshot
+## How to Interpret Result Data Performance Snapshot
 
