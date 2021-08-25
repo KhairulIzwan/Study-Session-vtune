@@ -1,8 +1,10 @@
-# Study-Session-VTune
+# Get Started with Intel® VTune™ Profiler
 
-## Get Started with Intel® VTune™ Profiler
+<!--## [Introduction](https://github.com/KhairulIzwan/Study-Session-vtune)-->
 
-## Workflow
+## [Installation](https://github.com/KhairulIzwan/Study-Session-vtune/blob/main/Prerequisites.md)
+
+## [Workflow](https://github.com/KhairulIzwan/Study-Session-vtune/blob/main/Workflow.md)
 
 ![VTune Workflow](https://github.com/KhairulIzwan/Study-Session-vtune/blob/main/img/workflowVTune.png)
 
