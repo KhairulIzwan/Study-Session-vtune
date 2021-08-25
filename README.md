@@ -1,60 +1,61 @@
-# Study-Session-vtune
+# Study-Session-VTune
 
 ## Get Started with Intel® VTune™ Profiler
 
-**Improve application and system performance**
-```
-1. Analyze algorithm choices.
-2. Find serial and parallel code bottlenecks.
-3. Understand where and how your application can benefit from available hardware resources.
-4. Speed up the execution of your application.
-```
+### Why using VTune?
+1. Improve application and system performance through these operations:
+	1. Analyze algorithm choices.
+	2. Find serial and parallel code bottlenecks.
+	3. Understand where and how your application can benefit from available hardware resources.
+	4. Speed up the execution of your application.
+	
+[Installation](https://github.com/KhairulIzwan/Study-Session-vtune/blob/main/Prerequisites.md)
 
-**Understand the Workflow**
+<!--**Understand the Workflow**-->
 
-![VTune Workflow](https://github.com/KhairulIzwan/Study-Session-vtune/blob/main/img/workflowVTune.png)
+<!--![VTune Workflow](https://github.com/KhairulIzwan/Study-Session-vtune/blob/main/img/workflowVTune.png)-->
 
-## Get Started with Intel® VTune™ Profiler for Linux* OS
+<!--## Get Started with Intel® VTune™ Profiler for Linux* OS-->
 
-*Environment Setup* **ONLY ONCE!**
-```
-echo "source /opt/intel/oneapi/vtune/2021.6.0/vtune-vars.sh" >> ~/.bashrc
-source ~/.bashrc
-```
+<!--*Environment Setup* **ONLY ONCE!**-->
+<!--```-->
+<!--echo "source /opt/intel/oneapi/vtune/2021.6.0/vtune-vars.sh" >> ~/.bashrc-->
+<!--source ~/.bashrc-->
+<!--```-->
 
-**Step 1: Start VTune Profiler**
+<!--**Step 1: Start VTune Profiler**-->
 
-1. Graphical User Interface (GUI)
-```
-vtune-gui
-```
+<!--1. Graphical User Interface (GUI)-->
+<!--```-->
+<!--vtune-gui-->
+<!--```-->
 
-2. Command Line Interface (CLI)
-```
-vtune
-```
+<!--2. Command Line Interface (CLI)-->
+<!--```-->
+<!--vtune-->
+<!--```-->
 
-**Step 2: Configure and Run Analysis**
+<!--**Step 2: Configure and Run Analysis**-->
 
-|             | Setting             | Default Value            |
-| ----------- | ------------------- | ------------------------ |
-| Where       | Target System       | Local Host               |
-| What        | Analysis Target     | Launch Application       |
-| How         | Analysis Type       | Performance Snapshot     |
+<!--|             | Setting             | Default Value            |-->
+<!--| ----------- | ------------------- | ------------------------ |-->
+<!--| Where       | Target System       | Local Host               |-->
+<!--| What        | Analysis Target     | Launch Application       |-->
+<!--| How         | Analysis Type       | Performance Snapshot     |-->
 
-**Step 3: View and Analyze Performance Data**
+<!--**Step 3: View and Analyze Performance Data**-->
 
-![Performance Snapshot Summary](https://github.com/KhairulIzwan/Study-Session-vtune/blob/main/img/summaryPS.png)
+<!--![Performance Snapshot Summary](https://github.com/KhairulIzwan/Study-Session-vtune/blob/main/img/summaryPS.png)-->
 
-| Section     | Description         | Notes            |
-| ----------- | ------------------- | -----------------|
-| A           | Expand each metric for detailed information about contributing factors.      |                |
-| B           | A flagged metric indicates a value outside acceptable/normal operating range. Use tool tips to understand how to improve a flagged metric.     |    |
-| C           | See guidance on other analyses you should consider running next. The Analysis Tree highlights these recommendations.       |      |
+<!--| Section     | Description         | Notes            |-->
+<!--| ----------- | ------------------- | -----------------|-->
+<!--| A           | Expand each metric for detailed information about contributing factors.      |                |-->
+<!--| B           | A flagged metric indicates a value outside acceptable/normal operating range. Use tool tips to understand how to improve a flagged metric.     |    |-->
+<!--| C           | See guidance on other analyses you should consider running next. The Analysis Tree highlights these recommendations.       |      |-->
 
-```
-*Start **Performance Snaphot** as it presents a general overview of issues affecting the performance of our application on the target system*
-```
+<!--```-->
+<!--*Start **Performance Snaphot** as it presents a general overview of issues affecting the performance of our application on the target system*-->
+<!--```-->
 
 <!--## Hotspots Analysis for CPU Usage Issues-->
 <!--### Hotspots-->
@@ -70,7 +71,7 @@ vtune
 
 <!--$ sudo gedit /etc/sysctl.d/10-ptrace.conf-->
 
-<!--kernel.yama.ptrace_scope 0  -->  kernel.yama.ptrace_scope 1-->
+<!--kernel.yama.ptrace_scope 0    kernel.yama.ptrace_scope 1-->-->
 
 <!--$ sudo reboot-->
 <!--```-->

@@ -1,4 +1,6 @@
-# Tutorial: Analyze Common Performance Bottlenecks with Intel® VTuneTMProfiler - C++ Sample Code (Linux* OS)
+# Study-Session-VTune
+
+## Get Started with Intel® VTune™ Profiler
 
 ## Prerequisites
 
