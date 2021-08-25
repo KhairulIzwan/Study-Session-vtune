@@ -9,7 +9,7 @@
 	3. Understand where and how your application can benefit from available hardware resources.
 	4. Speed up the execution of your application.
 	
-[Installation](https://github.com/KhairulIzwan/Study-Session-vtune/blob/main/Prerequisites.md)
+### [Installation](https://github.com/KhairulIzwan/Study-Session-vtune/blob/main/Prerequisites.md)
 
 <!--**Understand the Workflow**-->
 
@@ -71,7 +71,7 @@
 
 <!--$ sudo gedit /etc/sysctl.d/10-ptrace.conf-->
 
-<!--kernel.yama.ptrace_scope 0    kernel.yama.ptrace_scope 1-->-->
+<!--kernel.yama.ptrace_scope 0    kernel.yama.ptrace_scope 1-->
 
 <!--$ sudo reboot-->
 <!--```-->
