@@ -31,7 +31,7 @@
 7. Analyze Vectorization Efficiency
 
 | No | Step                                    | Tutorial Recap         | Key Tutorial Takeaways         |
-|    | ----------------------------------------| ------------------- | ------------------- |
+|----|-----------------------------------------|---------------------|---------------------|
 | 1. | Find the Bottleneck                     | You used the Performance Snapshot,
 Hotspots, and Memory Access
 analysis types to determine the main
