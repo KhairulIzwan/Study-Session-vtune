@@ -1,6 +1,6 @@
 # Get Started with Intel® VTune™ Profiler
 
-## [Introduction](https://github.com/KhairulIzwan/Study-Session-vtune)
+<!--## [Introduction](https://github.com/KhairulIzwan/Study-Session-vtune)-->
 
 ## [Installation](https://github.com/KhairulIzwan/Study-Session-vtune/blob/main/Prerequisites.md)
 

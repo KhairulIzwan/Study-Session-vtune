@@ -1,7 +1,8 @@
 # Get Started with Intel® VTune™ Profiler
 
-## Why using VTune?
-1. Improve application and system performance through these operations:
+## Introduction
+
+1. Why using VTune? To Improve application and system performance through these operations:
 	1. Analyze algorithm choices.
 	2. Find serial and parallel code bottlenecks.
 	3. Understand where and how your application can benefit from available hardware resources.
