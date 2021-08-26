@@ -2,7 +2,7 @@
 
 <!--## [Introduction](https://github.com/KhairulIzwan/Study-Session-vtune)-->
 
-## [Installation](https://github.com/KhairulIzwan/Study-Session-vtune/blob/main/Prerequisites.md)
+## Installation
 
 **Notes:** Please install [Intel® software for general purpose GPU capabilities](https://dgpu-docs.intel.com/index.html) beforehand.
 

@@ -2,9 +2,9 @@
 
 <!--## [Introduction](https://github.com/KhairulIzwan/Study-Session-vtune)-->
 
-## [Installation](https://github.com/KhairulIzwan/Study-Session-vtune/blob/main/Prerequisites.md)
+<!--## [Installation](https://github.com/KhairulIzwan/Study-Session-vtune/blob/main/Prerequisites.md)-->
 
-## [Workflow](https://github.com/KhairulIzwan/Study-Session-vtune/blob/main/Workflow.md)
+## Workflow
 
 ![VTune Workflow](https://github.com/KhairulIzwan/Study-Session-vtune/blob/main/img/workflowVTune.png)
 
