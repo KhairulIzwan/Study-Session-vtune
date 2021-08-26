@@ -1,0 +1,74 @@
+EMON Version .............. V11.27  
+Copyright(C) 1993-2020 Intel Corporation. All rights reserved.
+Application Build Date: Jun  8 2021 at 05:46:52
+SEP Driver Version: 5.27  (public)
+PAX Driver Version: 1.0
+total_number_of_processors  ...... 4
+number_of_online_processors ...... 4
+cpu_family ................ Intel(R) Core(TM) Processor code named Ivybridge
+cpu_model ................. 58 (0x3a)
+cpu_stepping .............. 9 (0x9)
+L1 Data Cache ............. 32KB, 8-way, 64-byte line size
+                            2 HW threads share this cache, No SW Init Required
+L1 Code Cache ............. 32KB, 8-way, 64-byte line size
+                            2 HW threads share this cache, No SW Init Required
+L2 Unified Cache .......... 256KB, 8-way, 64-byte line size
+                            2 HW threads share this cache, No SW Init Required
+L3 Unified Cache .......... 4MB, 16-way, 64-byte line size
+                            No SW Init Required
+Data TLB0 ................. 4-way, 2M/4M Pages, 32 entries
+Data TLB .................. 4-way, 4K Pages, 64 entries
+Instruction TLB ........... 4-way, 4K Pages, 64 entries
+64-byte Prefetching
+Shared 2nd Level TLB ...... 4-way, 4K Pages, 512 entries
+
+Device Type ............... Intel(R) Core(TM) Processor code named Ivybridge
+EMON Database ............. ivybridge
+Platform type ............. 86
+number_of_selectors ....... 4
+number_of_var_counters .... 4
+number_of_fixed_ctrs....... 3
+Fixed Counter Events:
+counter 0 ................. INST_RETIRED.ANY
+counter 1 ................. CPU_CLK_UNHALTED.THREAD
+counter 2 ................. CPU_CLK_UNHALTED.REF_TSC
+number of devices ......... 1
+number_of_events .......... 355
+
+Processor Features:
+    (Thermal Throttling) (Enabled)
+    (Hyper-Threading) (Enabled)
+    (MLC Streamer Prefetching) (Enabled)
+    (MLC Spatial Prefetching) (Enabled)
+    (DCU Streamer Prefetching) (Enabled)
+    (DCU IP Prefetching) (Enabled)
+    (Number of Packages:    1)
+    (Cores Per Package:    2)
+    (Threads Per Package:  4)
+    (Threads Per Core:      2)
+
+Uncore Performance Monitoring Units:
+    cbo             : 3
+    imc             : 1
+    gt              : 1
+    ncu             : 1
+
+RAM Features:
+    (Package/Memory Controller/Channel)
+	(0/0/0) (Total Number of Ranks on this Channel: 2)
+		 (Dimm0 Info: Empty)
+		 (Dimm1 Info: Empty)
+	(0/0/1) (Total Number of Ranks on this Channel: 2)
+		 (Dimm0 Info: Empty)
+		 (Dimm1 Info: Empty)
+
+TSC Freq .................. 2900.00 MHz
+
+		   OS Processor <-> Physical/Logical Mapping
+		   -----------------------------------------
+	  OS Processor	  Phys. Package	      Core	Logical Processor	Core Type
+		0		0		0		0		core
+		1		0		1		0		core
+		2		0		0		1		core
+		3		0		1		1		core
+		   -----------------------------------------

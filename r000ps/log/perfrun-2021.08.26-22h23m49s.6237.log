@@ -1,0 +1,94 @@
+10 [140129551368320] INFO perfrun.launcher <> - Launcher main begin
+11 [140129551368320] INFO perfrun.launcher <> - MessageCatalogInit finished
+11 [140129551368320] INFO perfrun.launcher <> - Launcher instance created
+11 [140129551368320] INFO perfrun.launcher <> - argc = 7; cmdline = /opt/intel/oneapi/vtune/2021.5.0/bin64/amplxe-runss --ui-output-format xml --ui-output-fd 8 --option-file /home/khairul/Documents/Scripts/Study-Session-vtune/r000ps/config/runsa.options 
+48 [140129551368320] INFO perfrun.launcher <> - create msngr2::ICliToolContext
+48 [140129551368320] INFO perfrun.launcher <> - create file finder object
+48 [140129551368320] INFO perfrun.launcher <> - create a result directory: pattern = /home/khairul/Documents/Scripts/Study-Session-vtune/r000ps pid = 4294967295
+69 [140129551368320] INFO perfrun.sdk <> - checked that the directory /home/khairul/Documents/Scripts/Study-Session-vtune/r000ps is a local directory
+69 [140129551368320] INFO perfrun.sdk <> - the directory /home/khairul/Documents/Scripts/Study-Session-vtune/r000ps is a local directory with FS type ID 61267
+70 [140129551368320] INFO perfrun.launcher <> - create data directory = /home/khairul/Documents/Scripts/Study-Session-vtune/r000ps/data.0
+70 [140129551368320] INFO perfrun.launcher <> - Creating the master collection flag
+72 [140129551368320] INFO perfrun.launcher <> - Done creating the master collection flag
+73 [140129541842688] INFO perfrun.launcher <> - plugin [remoteplug] was disabled because it doesn't support the given collection type.
+73 [140129541842688] INFO perfrun.system <> - online nodes : 0
+74 [140129541842688] INFO perfrun.system <> - nodes with cpus : 0
+74 [140129541842688] INFO perfrun.system <> - nodes with memory : 0
+75 [140129541842688] INFO perfrun.sdk <> - Allocating TMU :/home/khairul/Documents/Scripts/Study-Session-vtune/r000ps/data.0/systemcollector-6237-khairul-MacBookPro.sc
+75 [140129541842688] INFO perfrun.launcher <> - plugin [itt] was disabled because it doesn't support the given collection type.
+75 [140129541842688] INFO perfrun.launcher <> - plugin [ptracecollector] was disabled because it doesn't support the given collection type.
+75 [140129541842688] INFO perfrun.launcher <> - plugin [gpu] was disabled because it doesn't support the given collection type.
+75 [140129541842688] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+75 [140129541842688] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+75 [140129541842688] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+75 [140129541842688] INFO perfrun.mrte <> - system-wide mode is 0
+75 [140129541842688] INFO perfrun.mrte <> - Getting  mrte profiling environment ...
+94 [140129541842688] INFO perfrun.mrte <> - INTEL_MRTE_DATA_DIR=/home/khairul/Documents/Scripts/Study-Session-vtune/r000ps/data.0
+94 [140129541842688] INFO perfrun.mrte <> - INTEL_MRTE_HOST_NAME=khairul-MacBookPro
+94 [140129541842688] INFO perfrun.mrte <> - JAVA_TOOL_OPTIONS=-agentlib:amplxe_samplingmrte_javaprof_1.0 -Dsun.boot.library.path=/opt/intel/oneapi/vtune/2021.5.0/lib32/runtime:/opt/intel/oneapi/vtune/2021.5.0/lib64/runtime
+94 [140129541842688] INFO perfrun.mrte <> - CORECLR_ENABLE_PROFILING=1
+94 [140129541842688] INFO perfrun.mrte <> - CORECLR_PROFILER={AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+94 [140129541842688] INFO perfrun.mrte <> - CORECLR_PROFILER_PATH=/opt/intel/oneapi/vtune/2021.5.0/lib64/libamplxe_samplingmrte_clrprof_1.0.so
+94 [140129541842688] INFO perfrun.mrte <> - INTEL_MRTE_PROFILER_MODE=mixed
+94 [140129541842688] INFO perfrun.mrte <> - Data directory: /home/khairul/Documents/Scripts/Study-Session-vtune/r000ps/data.0
+94 [140129541842688] INFO perfrun.mrte <> - Mrte plugin is initialized
+94 [140129541842688] INFO perfrun.launcher <> - plugin [cuscol] was disabled because it doesn't support the given collection type.
+94 [140129541842688] INFO perfrun.launcher <> - plugin [stdsrc] was disabled because it doesn't support the given collection type.
+94 [140129541842688] INFO perfrun.launcher <> - plugin [sep] was disabled because it doesn't support the given collection type.
+94 [140129541842688] INFO perfrun.launcher <> - plugin [vtsspp] was disabled because it doesn't support the given collection type.
+94 [140129541842688] INFO perfrun.launcher <> - plugin [perf] was disabled because it doesn't support the given collection type.
+94 [140129541842688] INFO perfrun.launcher <> - plugin [aoclprofile] was disabled because it doesn't support the given collection type.
+94 [140129541842688] INFO perfrun.tpss <> - initialize tpss controller
+94 [140129541842688] INFO perfrun.launcher <> - plugin [tpss] was disabled because it doesn't support the given collection type.
+94 [140129541842688] INFO perfrun.launcher <> - plugin [exprof] was disabled because it doesn't support the given collection type.
+94 [140129541842688] INFO perfrun.launcher <> - plugin [media] was disabled because it doesn't support the given collection type.
+94 [140129541842688] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+94 [140129541842688] INFO perfrun.launcher <> - plugin [] was disabled because it doesn't support the given collection type.
+94 [140129541842688] INFO perfrun.launcher <> - plugin [parallelfs] was disabled because it doesn't support the given collection type.
+94 [140129541842688] INFO perfrun.launcher <> - plugin [power] was disabled because it doesn't support the given collection type.
+94 [140129541842688] INFO perfrun.launcher <> - plugin [hwloc] was disabled because it doesn't support the given collection type.
+94 [140129541842688] INFO perfrun.launcher <> - plugin [ipmwatch] was disabled because it doesn't support the given collection type.
+94 [140129541842688] INFO perfrun.launcher <> - plugin [os_counters] was disabled because it doesn't support the given collection type.
+94 [140129551368320] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_DATA_DIR = /home/khairul/Documents/Scripts/Study-Session-vtune/r000ps/data.0
+95 [140129551368320] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_HOST_NAME = khairul-MacBookPro
+95 [140129551368320] INFO perfrun.launcher <> - set environment variable: JAVA_TOOL_OPTIONS = -agentlib:amplxe_samplingmrte_javaprof_1.0 -Dsun.boot.library.path=/opt/intel/oneapi/vtune/2021.5.0/lib32/runtime:/opt/intel/oneapi/vtune/2021.5.0/lib64/runtime
+95 [140129551368320] INFO perfrun.launcher <> - set environment variable: CORECLR_ENABLE_PROFILING = 1
+95 [140129551368320] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER = {AA5E4821-E3B1-479c-B7FF-5AD047D22CED}
+95 [140129551368320] INFO perfrun.launcher <> - set environment variable: CORECLR_PROFILER_PATH = /opt/intel/oneapi/vtune/2021.5.0/lib64/libamplxe_samplingmrte_clrprof_1.0.so
+95 [140129551368320] INFO perfrun.launcher <> - set environment variable: INTEL_MRTE_PROFILER_MODE = mixed
+95 [140129551368320] INFO perfrun.launcher <> - RpcServer: run RPC server to handle requests
+95 [140129551368320] INFO perfrun.launcher <> - Launcher: command line to start before modification = /home/khairul/intel/vtune/samples/matrix/matrix
+95 [140129551368320] INFO perfrun.launcher <> - Launcher: command line to start after modification = /home/khairul/intel/vtune/samples/matrix/matrix
+95 [140129551368320] INFO perfrun.launcher <> - ProcessCreator object was created
+96 [140129551368320] INFO perfrun.launcher <> - Launcher: the process was started in suspend mode
+96 [140129541842688] INFO perfrun.launcher <> - Messenger::say: Peak bandwidth measurement started.
+3179 [140129541842688] INFO perfrun.launcher <> - Messenger::say: Peak bandwidth measurement finished.
+3201 [140129541842688] WARN perfrun.system <> - Could not do anything with /sys/kernel/debug/kvm: boost::filesystem::status: Permission denied: "/sys/kernel/debug/kvm", at file: vcs/perfrun1/plugins/system/src/trace_writer.cpp:797
+3201 [140129541842688] WARN perfrun.system <> - Folder "/var/run/libvirt/qemu/"doesn't exist, at file: vcs/perfrun1/plugins/system/src/trace_writer.cpp:810
+3201 [140129541842688] INFO perfrun.sdk <> - runCmd: "/opt/intel/oneapi/vtune/2021.5.0/bin64/emon" -M
+3325 [140129541842688] INFO perfrun.sdk <> - runCmd: "/opt/intel/oneapi/vtune/2021.5.0/bin64/emon" -v
+3441 [140129541842688] INFO perfrun.sdk <> - runCmd: "/opt/intel/oneapi/vtune/2021.5.0/bin64/sep" -dry-run -ec "CPU_CLK_UNHALTED.THREAD:sa=2900000,CPU_CLK_UNHALTED.REF_TSC:sample:sa=2900000,INST_RETIRED.ANY:sample:sa=2900000,CPU_CLK_UNHALTED.REF_XCLK:sa=100003,CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE:sa=100003,UOPS_RETIRED.RETIRE_SLOTS:sample:sa=2000003,FP_COMP_OPS_EXE.SSE_PACKED_DOUBLE:sa=2000003,FP_COMP_OPS_EXE.SSE_PACKED_SINGLE:sa=2000003,SIMD_FP_256.PACKED_SINGLE:sa=2000003,SIMD_FP_256.PACKED_DOUBLE:sa=2000003,FP_COMP_OPS_EXE.SSE_SCALAR_SINGLE:sa=2000003,FP_COMP_OPS_EXE.SSE_SCALAR_DOUBLE:sa=2000003,FP_COMP_OPS_EXE.X87:sa=2000003,UOPS_EXECUTED.THREAD:sa=2000003,CYCLE_ACTIVITY.CYCLES_NO_EXECUTE:sa=2000003,CYCLE_ACTIVITY.STALLS_L1D_PENDING:sa=2000003,CYCLE_ACTIVITY.STALLS_L2_PENDING:sa=2000003,CYCLE_ACTIVITY.STALLS_LDM_PENDING:sa=2000003,IDQ_UOPS_NOT_DELIVERED.CORE:sa=2000003,INT_MISC.RECOVERY_CYCLES:sa=2000003,MEM_LOAD_UOPS_RETIRED.LLC_HIT_PS:sa=50003,MEM_LOAD_UOPS_RETIRED.LLC_MISS_PS:sa=100003,OFFCORE_REQUESTS_OUTSTANDING.CYCLES_WITH_DATA_RD:sa=2000003,OFFCORE_REQUESTS_OUTSTANDING.ALL_DATA_RD:cmask=6:sa=2000003,RESOURCE_STALLS.SB:sa=2000003,RS_EVENTS.EMPTY_CYCLES:sa=2000003,UOPS_EXECUTED.CYCLES_GE_1_UOP_EXEC:sa=2000003,UOPS_EXECUTED.CYCLES_GE_2_UOPS_EXEC:sa=2000003,UOPS_EXECUTED.CYCLES_GE_3_UOPS_EXEC:sa=2000003,UOPS_EXECUTED.CORE:cmask=1:sa=2000003,UOPS_EXECUTED.CORE:cmask=2:sa=2000003,UOPS_EXECUTED.CORE:cmask=3:sa=2000003,UOPS_ISSUED.ANY:sa=2000003,IDQ_UOPS_NOT_DELIVERED.CYCLES_0_UOPS_DELIV.CORE:sa=2000003,MEM_UOPS_RETIRED.ALL_LOADS_PS:sa=100003,MEM_UOPS_RETIRED.ALL_STORES_PS:sa=100003,UNC_IMC_DATA_READS,UNC_IMC_DATA_WRITES" -experimental
+3557 [140129541842688] INFO perfrun.sdk <> - runCmd: "/opt/intel/oneapi/vtune/2021.5.0/bin64/emon" -u -t0.010 -l0 -A -C "CPU_CLK_UNHALTED.ONE_THREAD_ACTIVE,CPU_CLK_UNHALTED.REF_TSC,CPU_CLK_UNHALTED.REF_XCLK,CPU_CLK_UNHALTED.THREAD,CYCLE_ACTIVITY.CYCLES_NO_EXECUTE,CYCLE_ACTIVITY.STALLS_L1D_PENDING,CYCLE_ACTIVITY.STALLS_L2_PENDING,CYCLE_ACTIVITY.STALLS_LDM_PENDING,FP_COMP_OPS_EXE.SSE_PACKED_DOUBLE,FP_COMP_OPS_EXE.SSE_PACKED_SINGLE,FP_COMP_OPS_EXE.SSE_SCALAR_DOUBLE,FP_COMP_OPS_EXE.SSE_SCALAR_SINGLE,FP_COMP_OPS_EXE.X87,IDQ_UOPS_NOT_DELIVERED.CORE,IDQ_UOPS_NOT_DELIVERED.CYCLES_0_UOPS_DELIV.CORE,INST_RETIRED.ANY,INT_MISC.RECOVERY_CYCLES,MEM_LOAD_UOPS_RETIRED.LLC_HIT,MEM_LOAD_UOPS_RETIRED.LLC_MISS,MEM_UOPS_RETIRED.ALL_LOADS,MEM_UOPS_RETIRED.ALL_STORES,OFFCORE_REQUESTS_OUTSTANDING.ALL_DATA_RD:c6,OFFCORE_REQUESTS_OUTSTANDING.CYCLES_WITH_DATA_RD,RESOURCE_STALLS.SB,RS_EVENTS.EMPTY_CYCLES,SIMD_FP_256.PACKED_DOUBLE,SIMD_FP_256.PACKED_SINGLE,UNC_IMC_DATA_READS,UNC_IMC_DATA_WRITES,UOPS_EXECUTED.CORE:c1,UOPS_EXECUTED.CORE:c2,UOPS_EXECUTED.CORE:c3,UOPS_EXECUTED.CYCLES_GE_1_UOP_EXEC,UOPS_EXECUTED.CYCLES_GE_2_UOPS_EXEC,UOPS_EXECUTED.CYCLES_GE_3_UOPS_EXEC,UOPS_EXECUTED.THREAD,UOPS_ISSUED.ANY,UOPS_RETIRED.RETIRE_SLOTS" -f "/home/khairul/Documents/Scripts/Study-Session-vtune/r000ps/data.0/emon.0.emon" -experimental
+3558 [140129541842688] WARN perfrun.sdk <> - Could not reap child process with PID = 6252, the process is still running, at file: vcs/perfrun1/sdk/src/utils_lin.cpp:672
+3558 [140129541842688] INFO perfrun.emon <> - Waiting trace file creation: /home/khairul/Documents/Scripts/Study-Session-vtune/r000ps/data.0/emon.0.emon
+3759 [140129541842688] INFO perfrun.emon <> - trace file was found
+3759 [140129551368320] INFO perfrun.launcher <> - Launcher: all plugins were started
+3759 [140129551368320] INFO perfrun.launcher <> - DirectoryMonitor object was created
+3759 [140129551368320] INFO perfrun.launcher <> - DirectoryMonitor: a callback was added
+3759 [140129551368320] INFO perfrun.launcher <> - DirectoryMonitor was started with pingTime = 1000
+3759 [140129551368320] INFO perfrun.launcher <> - DeadlineTimer is going to be constructed
+3759 [140129551368320] INFO perfrun.launcher <> - DeadlineTimer: a callback was added
+3767 [140129551368320] INFO perfrun.launcher <> - Launcher: resume the profiled application and  wait its termination or stop command
+50480 [140129551368320] INFO perfrun.launcher <> - Launcher: the profiled application was terminated  with exit code = 0
+50489 [140129541842688] INFO perfrun.sdk <> - runCmd: "/opt/intel/oneapi/vtune/2021.5.0/bin64/emon" -stop
+50659 [140129541842688] INFO perfrun.emon <> - EMON collector successfully stopped.
+
+50660 [140129541842688] INFO perfrun.sdk <> - De-allocating TMU: /home/khairul/Documents/Scripts/Study-Session-vtune/r000ps/data.0/systemcollector-6237-khairul-MacBookPro.sc
+50660 [140129541842688] INFO perfrun.system <> - closed the system trace file: /home/khairul/Documents/Scripts/Study-Session-vtune/r000ps/data.0/systemcollector-6237-khairul-MacBookPro.sc
+50660 [140129551368320] INFO perfrun.launcher <> - Launcher: all plugins were stopped.
+50660 [140129551368320] INFO perfrun.launcher <> - DeadlineTimer is going to be destroyed
+50660 [140129551368320] INFO perfrun.launcher <> - DeadlineTimer was destroyed
+50660 [140129551368320] INFO perfrun.launcher <> - DirectoryMonitor object was destroyed
+50660 [140129551368320] WARN perfrun.launcher <> - Stop command is ignored because it is received when collection is already stopped, at file: vcs/perfrun1/launcher/src/command_handler.cpp:212
+50661 [140129551368320] INFO perfrun.launcher <> - Application exit code: 0
+50661 [140129551368320] INFO perfrun.launcher <> - Exit code: 0

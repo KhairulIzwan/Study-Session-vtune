@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+ <rdmgr>
+  <timestamp type="u64_t">1629987829</timestamp>
+  <hostname type="string">khairul-MacBookPro</hostname>
+  <os type="string">linux</os>
+  <product type="string">Intel® oneAPI VTune™ Profiler 2021.5.0</product>
+  <buildNumber type="s32_t">618064</buildNumber>
+  <logicalCPUCount type="s32_t">4</logicalCPUCount>
+  <physicalCoreCount type="s32_t">2</physicalCoreCount>
+  <processorPackageCount type="s32_t">1</processorPackageCount>
+  <CPUFrequency type="s64_t">2900000000</CPUFrequency>
+  <CPUFamily type="s32_t">6</CPUFamily>
+  <CPUModel type="s32_t">58</CPUModel>
+  <CPUStepping type="s32_t">9</CPUStepping>
+  <CPUBrandName type="string">Intel(R) Core(TM) i7-3520M CPU @ 2.90GHz</CPUBrandName>
+  <isa type="string">avx</isa>
+  <collectionTimeBegin type="u64_t">1629987829</collectionTimeBegin>
+  <collectionTimeEnd type="u64_t">1629987879</collectionTimeEnd>
+  <variables>
+   <at type="string">ps</at>
+  </variables>
+ </rdmgr>
+</root>
