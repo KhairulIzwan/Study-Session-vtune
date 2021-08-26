@@ -32,23 +32,10 @@
 
 | No | Step                                    | Tutorial Recap         | Key Tutorial Takeaways         |
 |----|-----------------------------------------|---------------------|---------------------|
-| 1. | Find the Bottleneck                     | You used the Performance Snapshot,
-Hotspots, and Memory Access
-analysis types to determine the main
-bottleneck that limits application
-performance.
-
-You started with Performance
-Snapshot to determine main limiting
-factors and next steps for
-optimization:
-
-- Using the Hotspots analysis to
-isolate problem to specific code
-area.
-- Using the Memory Access analysis
-to understand the exact
-mechanics behind the bottleneck.
+| 1. | Find the Bottleneck                     | You used the Performance Snapshot, Hotspots, and Memory Access analysis types to determine the main bottleneck that limits application performance. 
+You started with Performance Snapshot to determine main limiting factors and next steps for optimization:
+- Using the Hotspots analysis to isolate problem to specific code area.
+- Using the Memory Access analysis to understand the exact mechanics behind the bottleneck.
 | |
 | 2. | Resolve issue and recompile application | | |
 | 3. | Resolve Vectorization Issues            | | |
